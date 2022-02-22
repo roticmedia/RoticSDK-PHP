@@ -7,13 +7,12 @@ use RoticSDK\Model\RoticSDKModel;
 
 class Connect
 {
-    private $sdk, $token, $api;
-    private static $unique_token;
+    public $token, $api;
+    private $sdk;
+    public static $unique_token;
 
-    public function __construct($token,$api)
+    public function __construct()
     {
-        $this->token = $token;
-        $this->api = $api;
         self::$unique_token = self::$unique_token==null?rand(10000000,90000000):self::$unique_token;
         $this->sdk = new RoticSDKModel();
     }
