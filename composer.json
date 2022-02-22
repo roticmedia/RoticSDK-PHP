@@ -1,6 +1,7 @@
 {
     "name": "roticmedia/rotic-sdk",
     "description": "PHP SDK let you call Rotic Intelligent Solutions API",
+    "license": "MIT",
     "authors": [
         {
             "name": "Milad Xandi",
