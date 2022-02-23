@@ -5,7 +5,7 @@ namespace RoticSDK;
 use RoticSDK\Model\Response;
 use RoticSDK\Model\RoticSDKModel;
 
-class Connect
+class RoticSDK
 {
     public $token, $api;
     private $sdk;

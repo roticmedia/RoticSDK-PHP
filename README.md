@@ -1,7 +1,7 @@
 
 For chat:
 ```
-$rotic = new Connect();
+$rotic = new RoticSDK();
 $rotic->token = '{YOUR_TOKEN}';
 $rotic->api = '{YOUR_API_TOKEN}';
 $rotic::$unique_token = '{Random_Generated_String}';
