@@ -24,7 +24,7 @@
     "require-dev": {
         "ext-json": "*"
     },
-    "version": "1.0.0.0",
+    "version": "2.0.6.0",
     "prefer-stable": true,
     "keywords": [
         "Rotic","Rotic SDK","SDK"
